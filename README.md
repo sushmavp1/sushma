@@ -1,2 +1,0 @@
-# sushma
- Python codes
