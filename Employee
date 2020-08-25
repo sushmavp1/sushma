@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Employeedetails1{
+public class Employee{
 	
 	String Name;
 	int YearOfJoining;
@@ -26,11 +26,11 @@ public void display() {
 
 	public static void main(String[] args) {
 		
-		Employeedetails1 e[] = new Employeedetails1[3];
+		Employee e[] = new Employee[3];
 		
 		for(int i=0; i<3; i++) {
 			
-			e[i] = new Employeedetails1();
+			e[i] = new Employee();
 			e[i].getInput();
 		}
 		
